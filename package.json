@@ -1,0 +1,15 @@
+{
+  "name": "bricknest-portal",
+  "version": "1.0.0",
+  "description": "BrickNest — Full-Stack MERN Architectural Real Estate Portal",
+  "private": true,
+  "scripts": {
+    "seed": "npm run seed --prefix server",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "install:server": "npm install --prefix server",
+    "install:client": "npm install --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "build:client": "npm run build --prefix client"
+  }
+}
